@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.env
+
+# Data - never commit raw genomic data
+benchmarks/hcc1395/data/
+benchmarks/tesla/data/
+*.fastq
+*.fastq.gz
+*.bam
+*.bam.bai
+*.vcf
+*.vcf.gz
+
+# Docker
+*.tar
+
+# AWS
+.aws/
+terraform.tfstate
+terraform.tfstate.backup
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
