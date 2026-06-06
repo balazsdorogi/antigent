@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-06T16:37:08.492952+00:00",
+  "images": {
+    "fastp": {
+      "confirmed": true,
+      "digest": "sha256:99eb308e4c4f1a6467beb775019bce0f88414303395fa8f27ad6da9a014bf14b",
+      "repo_digests": [
+        "quay.io/biocontainers/fastp@sha256:99eb308e4c4f1a6467beb775019bce0f88414303395fa8f27ad6da9a014bf14b"
+      ],
+      "repository": "quay.io/biocontainers/fastp",
+      "tag": "0.24.1--heae3180_0"
+    }
+  }
+}

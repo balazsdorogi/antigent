@@ -6,6 +6,9 @@ __pycache__/
 dist/
 build/
 .eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
 # Environment
 .env
@@ -23,6 +26,9 @@ benchmarks/tesla/data/
 
 # Docker
 *.tar
+
+# Run outputs (telemetry/cognitive/audit logs + sealed artifacts; may contain sensitive data)
+runs/
 
 # AWS
 .aws/
